@@ -33,7 +33,10 @@ body{
 .score{
     display: flex;
     gap: .25rem;
-    font-size: .75rem;
+}
+
+.mod{
+    font-size: 2rem;
 }
 
 .name{
