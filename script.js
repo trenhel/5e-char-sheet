@@ -10,8 +10,14 @@ function roll(rolls, sides){
     return total;
 }
 
+function d20(num){
+    return roll(num, 20);
+}
+
 
 function statRoll(){
+
+
     let x = 0;
     let stats = [];
     while (x < 6){
