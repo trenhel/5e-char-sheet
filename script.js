@@ -71,3 +71,10 @@ document.querySelector('.wisMod').innerHTML = Math.floor(parseFloat(document.que
 document.querySelector('.chaMod').innerHTML = Math.floor(parseFloat(document.querySelector('.chaStat').innerHTML) / 2 -5);
 
 document.querySelector('.rollStats').onclick = statRoll;
+
+function charName(){
+    charName = prompt('what is your name?')
+    document.querySelector('.name').innerHTML = charName;
+}
+
+document.querySelector('.name').onclick = charName();
